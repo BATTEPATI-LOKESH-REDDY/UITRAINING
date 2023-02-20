@@ -1,0 +1,64 @@
+
+header{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:25px;
+    font-weight: 20px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+#furniture{
+    background-color: black;
+    margin: auto;
+    color: aliceblue;
+}
+#funiturerow{
+    padding-left: 50px;
+
+}
+#furniturename{
+    padding: 15px;
+    font-size: 10px;
+    width:33%;
+    text-align: center;
+    background-color:black;
+
+}
+#quote1{
+    font-size:40px;
+    text-align: center;
+    margin-bottom:0;
+}
+#choose{
+    text-align: center;
+    margin-top: 1px;
+    font-size: 25px;
+    font-weight:400;
+}
+#discription{
+    padding-left:31.5%;
+    padding-right: 31.5%;
+    line-height: 1.5;
+    text-align:center;
+    margin:auto;
+    padding-top: 10px;
+}
+#google{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+#dinningimg{
+    margin: auto;
+}
+#detailsform{
+    padding-top: 1%;
+    text-align: center;
+}
