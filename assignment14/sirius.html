@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="assests/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="headerlogo"><img src="assests/images/Sirius_CDW_Cobranded_PMS2747.svg"></div>
+    </header>
+    <div class="form-container">
+        
+        <form name="page-form">
+            <h3 class="heading">BILLING DETAILS</h3>
+            <div class="row1">
+                <div class="div1">
+                    <label for="first-name" id="first-name" >First Name</label>
+                    <input type="text" id="firstname" class="firstNameInput" />
+                    <label id="firstNameError" class="errors"></label>
+                </div>
+                <div class="div2">
+                    <label for="last-name" id="last-name">Last Name</label>
+                    <input type="text" id="lastname" class="lastNameInput"/>
+                    <label id="lastNameError" class="errors"></label>
+                </div>
+            </div>
+            <div class="row2">
+                <label for="email-address" id="email-address">Email Address</label>
+                <input type="email" id="emailaddress" class="emailAddress"/>
+                <label id="emailAddressError" class="errors"></label>
+            </div>
+            <div class="row3">
+                <label for="contact-number" id="contact-number">Contact Number</label>
+                <input type="tel" id="contactnumber" class="contactNumber"/>
+                <label id="contactNumberError" class="errors"></label>
+            </div>
+            <div class="row4">
+                <label for="pin-code" id="pin-code">Pin Code</label>
+                <input type="text" id="pincode" class="pinCode"/>
+                <label id="pinCodeError" class="errors"></label>
+            </div>
+            <h3 id="paymentdetails">PAYMENT DETAILS</h3>
+            <div class="row5">
+                <label for="card-number" id="card-number">Card Number</label>
+                <input type="text" id="cardnumber" class="cardNumber"/>
+                <label id="cardNumberError" class="errors"></label>
+            </div>
+            <div class="row6">
+                <div class="div3">
+                    <label for="card-expiry" id="card-expiry">Card Expiry(Year)</label>
+                    <input type="text" id="cardexpiry" class="cardExpiry"/>
+                    <label id="cardExpiryError" class="errors"></label>
+                </div>
+                <div class="div4">
+                    <label for="cvv" id="cvv">CVV</label>
+                    <input type="text" id="cvvid" class="cvvclass"/>
+                    <label id="cvvError" class="errors"></label>
+                </div>
+            </div>
+            <button type="submit">COMPLETE PAYMENT</button>
+        </form>
+        
+    </div>
+    <script src="formvalidate.js"></script>
+
+    
+    
+</body>
+</html>

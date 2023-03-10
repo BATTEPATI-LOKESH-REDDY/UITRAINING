@@ -1,0 +1,320 @@
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+
+}
+
+img {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.maildetails{
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: flex-end;
+    margin: auto;
+    margin-top: 0px;
+
+
+}
+
+.mailid {
+    margin: 12px;
+    width: 400px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    padding-right: 123px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.persondetails{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 81px;
+    flex-direction: column;
+}
+
+.name {
+    width: 58%;
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 10.5em;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.surname {
+    color: #ffffff;
+    font-weight: 500;
+    padding-left: 38px;
+}
+
+.normaltext {
+    font-size: 3.4em;
+    width: 100%;
+    margin: auto;
+    color: #cecece;
+    text-align: center;
+
+}
+
+.highlightedtext {
+    color: #4990e2;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 155px auto 7% auto;
+
+
+}
+
+#adidas {
+    width: 65%;
+}
+
+.productimage {
+    width: 443px;
+    margin: 15px;
+
+}
+
+.textunder {
+    color: #cecece;
+    text-align: center;
+    font-size: 3.0em;
+    font-weight: 500;
+}
+
+.highlightedtexttwo {
+    color: #b8e986;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    width: 87%;
+    margin: auto;
+    margin-top: 95px;
+
+}
+
+.logopics {
+    width: 8%;
+    margin: auto;
+
+
+}
+
+.twolines {
+    width: 20%;
+    display: flex;
+    margin: 275px auto 20px auto;
+
+}
+
+.firstline {
+    width: 9%;
+    border: 1px solid grey;
+    margin-right: 43px;
+    margin-left:30px;
+}
+
+
+.secondline {
+    width: 61%;
+    border: 1px solid grey;
+}
+
+.media{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 22%;
+    margin: auto;
+    margin-top: 7%;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid #ffffff;
+
+}
+
+.fa-brands,
+.fa-solid {
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+}
+
+.quote {
+    font-size: 23px;
+    font-weight: 500;
+    color: white;
+
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width:1250px) {
+    .header{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+
+    .persondetails {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        margin-top: 81px;
+        flex-direction: column;
+
+    }
+
+    .name {
+        width: 100%;
+        color: #ffffff;
+        font-weight: 300;
+        font-size: 3.5em;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .surname{
+        color: white;
+        font-weight: 500;
+        padding-left: 17px;
+    }
+
+    .normaltext {
+        font-size: 2.2em;
+        width: 100%;
+        margin: auto;
+        color: #cecece;
+        text-align: center;
+
+    }
+
+    .maildetails{
+        display: flex;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+        justify-content: flex-end;
+        margin: auto;
+        margin-top: -15px;
+
+
+    }
+
+    .mailid {
+        margin: 14px;
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 40px;
+        padding: 0px;
+    }
+
+    .products {
+        margin-top: 80px;
+        margin-bottom: 65px;
+
+    }
+
+    .productimage {
+        width: 360px;
+        margin: 8px;
+
+    }
+
+    .textunder{
+        font-size: 1.8em;
+    }
+
+    .logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 93%;
+        align-items: center;
+        margin-top: 36px;
+    }
+
+    .logopics {
+        width: 30%;
+        margin: 34px;
+    }
+
+    .twolines {
+        margin-top: 173px;
+        width: 45%;
+    }
+    .firstline {
+        width: 13%;
+        border: 1px solid grey;
+        margin-right: 20px;
+        margin-left:7px;
+    }
+    
+    
+    .secondline {
+        width: 61%;
+        border: 1px solid grey;
+    }
+    
+    .media {
+        width: 90%;
+        margin-top: 16%;
+    }
+
+    .quote{
+        width: 100%;
+    }
+    
+
+
+
+
+}

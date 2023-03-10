@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    width: 100%;
+    position: relative;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    flex-wrap: row wrap;
+    position: fixed;
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 4px 1px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.contentContainer {
+    width: 1203px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+
+.profile {
+    display: flex;
+    flex-wrap: row wrap;
+    margin-top: 10px;
+
+
+}
+
+.profilename {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.profilpic {
+    padding: 5px;
+}
+
+.profilpic>img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+main {
+    /* adjust this value to match the height of your header */
+    display:flex;
+    flex-wrap: row wrap;
+    width: 1300px;
+    height: 1338px;
+    margin: auto;
+    margin-top: 75px;
+}
+
+.mainsection {
+    width: 970px;
+
+}
+
+.videocontainer {
+    width: 970px;
+    height: 612.7px;
+
+
+}
+
+.title {
+    color: black;
+    width: 70px;
+    height: 36px;
+    margin-top: 10px;
+}
+
+.description {
+    width: 970px;
+    height: 92px;
+    font: normal normal normal 14px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #222222;
+}
+
+.comments {
+    width: 970px;
+    height: 629px;
+    display: block;
+    margin-top: 23.3px;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+
+}
+
+.col1 {
+    display: flex;
+    width: 970px;
+    height: 66px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 15px;
+
+}
+
+.ele1 {
+    width: 50px;
+    height: 50px;
+
+
+}
+
+.ele2 {
+    display: flex;
+    width: 905px;
+    height: 41px;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 21px;
+    margin-left: 10px;
+
+
+}
+
+.ele3 {
+    width: 905px;
+    height: 21px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 14px/24px Open Sans;
+    letter-spacing: 0px;
+    color: #222222;
+}
+
+.ele4 {
+    width: 905px;
+    height: 41px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 13px/20px Open Sans;
+    letter-spacing: 0px;
+    color: #222222;
+}
+.projects{
+    margin-left:30px;
+}
+.posterheading{
+    width: 186px;
+
+text-align: left;
+font: normal normal bold 17px Open Sans;
+letter-spacing: 0px;
+color: #222222;
+margin-bottom: 10px;
+}
+.posterimage{
+    width: 100%;
+}
+.picture{
+    width: 300px;
+    height: 428px;
+    margin-bottom: 15px;
+}
+footer{
+    
+    width: 100%;
+    height: 77px;
+    margin-top: 10px;
+    background-color: #222222;
+    color: white;
+}
+.chat{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    font-size: 25px;
+    position: fixed;
+    right: 39px;
+    bottom:40px;
+    background-color: #C432AE;
+}
+
+.chat img{
+    width: 100%;
+    border-radius:50%;
+}
+
+.footerContainer{
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}

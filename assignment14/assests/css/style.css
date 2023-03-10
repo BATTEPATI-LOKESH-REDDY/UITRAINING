@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    color: #001c72;
+    padding-top: 45px;
+    padding-bottom: 13px;
+    font-size: 15px;
+    background-color: white;
+}
+
+.headerlogo {
+    width: 270px;
+    height: 170px;
+}
+
+.form-container {
+    width: 35%;
+    margin: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    background-color: white;
+
+}
+
+
+.row1,.row6 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 13.5px 0px;
+    justify-content: space-between;
+}
+
+.div1,
+.div2,
+.row2,
+.row3,
+.row4,
+.row5,
+.div3,
+.div4{
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 12px;
+    padding: 5px;
+}
+
+#firstname,
+#lastname,
+#cardexpiry,
+#cvvid {
+    width: 270px;
+    height: 45px;
+    border: grey 1px solid;
+    border-radius: 5px;
+}
+
+#emailaddress,
+#contactnumber,
+#pincode ,
+#cardnumber{
+    width: 570px;
+    height: 45px;
+    border: grey 1px solid;
+    border-radius: 5px;
+}
+button{
+    color:white;
+    background-color: #001c72;
+    border: 1px solid #001c72;
+    border-radius: 5px;
+    width: 570px;
+    height:45px;
+}
+.errors{
+    color:red;
+}
+
+

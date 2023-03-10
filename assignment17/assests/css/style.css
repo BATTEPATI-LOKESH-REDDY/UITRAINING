@@ -1,0 +1,25 @@
+
+#tabs{
+    width: 50%;
+    height:50%;
+    margin: auto;
+    border: 0px;
+}
+
+ul {
+    background-color: white !important;
+    border: 0px !important;
+    padding-left:20px !important;
+    
+    
+}
+
+ul li a{
+    margin-left: 0px!important;
+    background-color: black !important;
+    color: white !important;
+}
+
+#tabs-1,#tabs-2,#tabs-3{
+    border: 1px solid black !important;
+}
