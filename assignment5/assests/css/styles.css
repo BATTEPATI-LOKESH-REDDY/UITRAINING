@@ -1,0 +1,95 @@
+header{
+    background-color: #145f94;
+    color:aliceblue;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size:larger;
+    padding: 35px;
+    font-weight: 1000;
+    
+}
+.main{
+    width:80%;
+    margin: auto;
+    margin-top: 40px;
+
+
+}
+.leftcontainer{
+    width: 60%;
+    float: left;
+    
+
+}
+.rightcontainer{
+    width: 38%;
+    float:right;
+}
+.card{
+    margin-bottom: 20px;
+}
+.Network{
+    background-color:#145f94;
+    font-size: 20px;
+    color: aliceblue;
+    padding-right: 25px;
+    font-weight: 500;
+
+    
+}
+p{
+    padding:20px;
+    padding-top: 18px;
+    padding-bottom: 17px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.details{
+    border: 1px #145f94 solid;
+    padding:22px;
+    text-align: justify;
+    font-weight: 4.8px;
+    background-color: #f6f6f6;
+    line-height: 1.7;
+    word-spacing: 3.3px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+
+@media screen and (max-width: 820px) {
+    .leftcontainer{
+        width: 100%;
+
+    }
+    .rightcontainer{
+        width:100%;
+    } 
+    .main{
+        width: 90%;
+    
+
+    }
+}
+@media screen and (max-width: 390px) {
+    .leftcontainer{
+        width: 100%;
+
+    }
+    .rightcontainer{
+        width:100%;
+    } 
+    .main{
+        width: 100%;
+    
+
+    }
+}
+
+
