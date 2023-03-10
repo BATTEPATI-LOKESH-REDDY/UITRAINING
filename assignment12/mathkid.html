@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="math.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="bottom"></div>
+        <div class="left">MATH KIDS</div>
+        <div class="right">KIDS LEARNING APP</div>
+    </div>
+    <!-- section one -->
+    <section id="select-shape">
+        <h2 id="heading1">1.Choose the shape</h2>
+        <div class="shapes-container">
+            <div class="shape" id="circle" onclick="shapeFun(this.id)">
+                <div class="tick"></div>
+            </div>
+            <div class="shape" id="triangle" onclick="shapeFun(this.id)">
+                <div class="tick triangletick" ></div>
+            </div>
+            <div class="shape" id="square" onclick="shapeFun(this.id)">
+                <div class="tick"></div>
+            </div>
+        </div>
+        <div id="next-btn" onclick="nextBtn(this.id)">NEXT</div>
+    <!-- section two -->
+    </section>
+    <section id="value-section" style="display: none">
+        <h2 id="heading">Enter value</h2>
+        <div>
+            <input type="number" id="value-input">
+        </div>
+        <div id="calculate-btn" onclick="cal(this.id)">
+            CALCULATE
+        </div>
+    </section>
+        <!--section three-->
+    <section id="result" style="display: none">
+        <div class="shape1"></div>
+        <h2 id="shapename"></h2>
+        <div id="table"></div>
+        <div id="start-again" onclick="startAgain(this.id)">START AGAIN</div>
+    </section>
+    <script src="mathkid.js"></script>
+
+</body>
+
+</html>

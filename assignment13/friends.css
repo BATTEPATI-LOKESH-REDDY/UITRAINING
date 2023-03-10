@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    color:white;
+
+}
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    padding: 15px;
+}
+#table{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 70px;
+}
+
+header {
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    background-color: #3b1c67;
+    color: white;
+    font-weight: 100;
+}
+
+.col1{
+    display: flex;
+    width: 490px;
+    height: 100px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border:1px solid black;
+    margin: 10px;
+    background-color: #4d66b4;
+    
+}
+.ele1{
+    width: 100px;
+    height:100px;
+    
+}
+.ele2
+{display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+
+}
